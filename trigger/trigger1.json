@@ -1,0 +1,14 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"runtimeState": "Stopped",
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/rawzone/blobs/raw/",
+			"scope": "/subscriptions/63198665-bff8-418b-b10b-67798fbbdabd/resourceGroups/TrainingGroup/providers/Microsoft.Storage/storageAccounts/landingzonekumba",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
